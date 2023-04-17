@@ -168,6 +168,6 @@ while ret:
     if cv2.waitKey(1) == ord('q'):
         break
 
-# release the webcam and destroy all active windows
+# release the webcam and destroy all active windows on system
 cap.release()
 cv2.destroyAllWindows()
